@@ -1,25 +1,66 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box, Grommet, Text } from 'grommet';
+
+const storyBlocks = require('./story-blocks.json');
+
+const theme = {
+  global: {
+    colors: {
+      brand: '#228BE6',
+      'dark-1': '#74B4EE'
+    },
+    font: {
+      family: 'Roboto',
+      size: '18px',
+      height: '20px',
+    },
+  },
+};
+
+const AppBar = (props) => (
+  <Box
+    tag='header'
+    direction='row'
+    align='center'
+    justify='between'
+    background='brand'
+    pad={{ left: 'medium', right: 'small', vertical: 'medium' }}
+    elevation='medium'
+    style={{ zIndex: '1' }}
+    {...props}
+  />
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Grommet theme={theme} full>
+      <Box fill>
+        <AppBar>Simple Grommet Reader</AppBar>
+        <Box direction='row' flex overflow={{ horizontal: 'hidden' }}>
+          <Box flex align='center' justify='center' elevation='small'>
+            <Text margin='large' size='large'>
+             {storyBlocks[0].text}
+            </Text>
+          </Box>
+        </Box>
+        <Box direction='row' 
+          // border={{
+          //   "color": "gray",
+          //   "size": "medium",
+          //   "side": "top"
+          // }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          {storyBlocks[0].actions.map((action, i) => {
+            return (<Box flex align='center' justify='center' background={(i+1 % 2 == 1) ? 'dark-1' : null} pad='medium'>
+              {/*  */}
+              <Text size='large'>
+               {action}
+              </Text>
+            </Box>)
+          })}
+        </Box>
+      </Box>
+    </Grommet>
   );
 }
 
