@@ -7,7 +7,7 @@ const theme = {
   global: {
     colors: {
       brand: '#228BE6',
-      'dark-1': '#74B4EE'
+      button: '#74B4EE'
     },
     font: {
       family: 'Roboto',
@@ -43,22 +43,32 @@ function App() {
             </Text>
           </Box>
         </Box>
-        <Box direction='row' 
-          // border={{
-          //   "color": "gray",
-          //   "size": "medium",
-          //   "side": "top"
-          // }}
-        >
+        {/* <Box direction='row' 
+          border={{
+            "color": "gray",
+            "size": "medium",
+            "side": "top"
+          }}
+        > */}
           {storyBlocks[0].actions.map((action, i) => {
-            return (<Box flex align='center' justify='center' background={(i+1 % 2 == 1) ? 'dark-1' : null} pad='medium'>
-              {/*  */}
-              <Text size='large'>
-               {action}
-              </Text>
-            </Box>)
+            return (
+              <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
+                <Box 
+                  flex 
+                  align='center' 
+                  justify='center' 
+                  background='button'
+                  elevation='small'
+                  pad='medium'
+                >
+                  <Text size='large'>
+                    {action}
+                  </Text>
+                </Box>
+              </Box>
+              );
           })}
-        </Box>
+        {/* </Box> */}
       </Box>
     </Grommet>
   );
