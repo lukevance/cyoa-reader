@@ -18,20 +18,6 @@ const theme = {
   },
 };
 
-// const AppBar = (props) => (
-//   <Box
-//     tag='header'
-//     direction='row'
-//     align='center'
-//     justify='between'
-//     background='brand'
-//     pad={{ left: 'medium', right: 'small', vertical: 'medium' }}
-//     elevation='medium'
-//     style={{ zIndex: '1' }}
-//     {...props}
-//   />
-// );
-
 function App() {
   const [currPosition, setCurrPosition] = useState(0);
 
@@ -56,15 +42,7 @@ function App() {
             </Text>
           </Box>
         </Box>
-        {/* <Box direction='row' 
-          border={{
-            "color": "gray",
-            "size": "medium",
-            "side": "top"
-          }}
-        > */}
-        {/* <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}> */}
-          {storyBlocks[currPosition].actions.map((action, i) => {
+        {storyBlocks[currPosition].actions.map(action => {
             return (
               <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
                 <Box 
@@ -79,12 +57,10 @@ function App() {
                   <Text size='large' color='white'>
                     {action}
                   </Text>
-                  {/* <Button label={action} onClick={() => updatePosition(currPosition, action)} /> */}
                 </Box>
                </Box>
-              );
+            );
           })}
-          {/* </Box> */}
         </Box>
     </Grommet>
   );
