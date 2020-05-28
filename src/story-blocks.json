@@ -4,7 +4,9 @@
         "text": "You are standing outside a hundred-year-old three-story red-brick Queen Anne house you inherited by accident. The house is tucked in a dense bit of woods rumored to hold the Bandit Jack’s lost treasure. You think you hear a boy’s laughter coming from the trees, but that’s impossible. The closest neighbor is five miles away and, from what you’ve been told, hard of hearing. The only one here is you. One corner of the old house has sunk, pulling the bricks apart in a way that reminds you of teeth. You have the distinct sensation of being watched, but all the windows are dark. The key is in your hand. Would you like to go inside?,",
         "actions": [
             "Yes",
-            "No"
+            "No",
+            "Maybe",
+            "What's out here?"
         ]
     },
     {

@@ -18,19 +18,19 @@ const theme = {
   },
 };
 
-const AppBar = (props) => (
-  <Box
-    tag='header'
-    direction='row'
-    align='center'
-    justify='between'
-    background='brand'
-    pad={{ left: 'medium', right: 'small', vertical: 'medium' }}
-    elevation='medium'
-    style={{ zIndex: '1' }}
-    {...props}
-  />
-);
+// const AppBar = (props) => (
+//   <Box
+//     tag='header'
+//     direction='row'
+//     align='center'
+//     justify='between'
+//     background='brand'
+//     pad={{ left: 'medium', right: 'small', vertical: 'medium' }}
+//     elevation='medium'
+//     style={{ zIndex: '1' }}
+//     {...props}
+//   />
+// );
 
 function App() {
   const [currPosition, setCurrPosition] = useState(0);
@@ -42,11 +42,15 @@ function App() {
   }
 
   return (
-    <Grommet theme={theme} full>
+    <Grommet theme={theme}>
       <Box fill>
-        <AppBar>Simple Grommet Reader</AppBar>
-        <Box direction='row' flex overflow={{ horizontal: 'hidden' }}>
-          <Box flex align='center' justify='center' elevation='small'>
+        <Box direction='row' flex overflow={{ horizontal: 'hidden'}} fill>
+          <Box 
+            flex 
+            align='center' 
+            justify='center' 
+            elevation='small'
+          >
             <Text margin='large' size='large'>
              {storyBlocks[currPosition].text}
             </Text>
@@ -59,29 +63,29 @@ function App() {
             "side": "top"
           }}
         > */}
-        <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
+        {/* <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}> */}
           {storyBlocks[currPosition].actions.map((action, i) => {
             return (
-              
+              <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
                 <Box 
                   flex 
                   align='center' 
                   justify='center' 
-                  // background='button'
-                  // elevation='small'
-                  // pad='medium'
+                  background='button'
+                  elevation='small'
+                  pad='medium'
+                  onClick={() => updatePosition(currPosition, action)}
                 >
-                  {/* <Text size='large'>
+                  <Text size='large' color='white'>
                     {action}
-                  </Text> */}
-                  <Button label={action} onClick={() => updatePosition(currPosition, action)} />
+                  </Text>
+                  {/* <Button label={action} onClick={() => updatePosition(currPosition, action)} /> */}
                 </Box>
-              
+               </Box>
               );
           })}
-          </Box>
-        {/* </Box> */}
-      </Box>
+          {/* </Box> */}
+        </Box>
     </Grommet>
   );
 }
