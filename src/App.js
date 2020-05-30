@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Box, Grommet, Text } from 'grommet';
 
+import PaternChallenge from './PatternChallenge';
+
 const storyBlocks = require('./story-blocks.json');
 const storyPaths = require('./story-paths.json');
 
@@ -47,7 +49,7 @@ function App() {
             </Text>
           </Box>
         </Box>
-        {currBlock.actions.map(action => {
+        {currBlock.actions[0] === "PATTERN_CHALLENGE" ? PaternChallenge : currBlock.actions.map(action => {
             return (
               <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
                 <Box 
