@@ -1,7 +1,37 @@
 [
     {
+        "source": -1,
+        "target": 0,
+        "action": "Try again"
+    },
+    {
         "source": 0,
         "target": 1,
         "action": "Yes"
+    },
+    {
+        "source": 1,
+        "target": 2,
+        "action": "Leave"
+    },
+    {
+        "source": 1,
+        "target": 3,
+        "action": "Explore"
+    },
+    {
+        "source": 2,
+        "target": 3,
+        "action": "Continue"
+    },
+    {
+        "source": 3,
+        "target": 4,
+        "action": "Yes"
+    },
+    {
+        "source": 3,
+        "target": 5,
+        "action": "No"
     }
 ]

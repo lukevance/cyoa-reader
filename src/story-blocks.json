@@ -1,20 +1,54 @@
 [
     {
+        "position": -1,
+        "text": "It's easy to get lost in an old house, looks like you'll have to start over.",
+        "actions": [
+            "Try again"
+        ]
+    },
+    {
         "position": 0,
-        "text": "You are standing outside a hundred-year-old three-story red-brick Queen Anne house you inherited by accident. The house is tucked in a dense bit of woods rumored to hold the Bandit Jack’s lost treasure. You think you hear a boy’s laughter coming from the trees, but that’s impossible. The closest neighbor is five miles away and, from what you’ve been told, hard of hearing. The only one here is you. One corner of the old house has sunk, pulling the bricks apart in a way that reminds you of teeth. You have the distinct sensation of being watched, but all the windows are dark. The key is in your hand. Would you like to go inside?,",
+        "text": "You are standing outside a hundred-year-old three-story red-brick Queen Anne house you inherited by accident. The house is tucked in a dense bit of woods rumored to hold the Bandit Jack’s lost treasure. You think you hear a boy’s laughter coming from the trees, but that’s impossible. The closest neighbor is five miles away and, from what you’ve been told, hard of hearing. The only one here is you. One corner of the old house has sunk, pulling the bricks apart in a way that reminds you of teeth. You have the distinct sensation of being watched, but all the windows are dark. \n\n The key is in your hand. \n Would you like to go inside?",
         "actions": [
             "Yes",
-            "No",
-            "Maybe",
-            "What's out here?"
+            "No"
         ]
     },
     {
         "position": 1,
-        "text": "stage 2 - you are inside",
+        "text": "The parlor is dark despite the late day’s sun, and you throw open the blackout curtains. The view from here is beautiful—a grassy lawn, a winding dirt road that disappears into the forest—but when you turn back to the room, you see a splatter of blood on the opposite wall. The man who lived here before was an experimental physicist playing with pocket universes. You knew he’d gone missing—you’d agreed to search the house for clues of where he might have gone—but no one had said anything about murder. Would you like to keep exploring the house, or is it time to leave?",
         "actions": [
-            "Left",
-            "Right"
+            "Leave",
+            "Explore"
+        ]
+    },
+    {
+        "position": 2,
+        "text": "The sun sets behind the woods, and the front lawn falls unnaturally dark. The shadows stretch tall and lope at the forest’s edge. You can’t see eyes or mouths, but you know they have them. You close the door. You cannot leave now.",
+        "actions": [
+            "Continue"
+        ]
+    },
+    {
+        "position": 3,
+        "text": "You turn on the overhead light. There is a cold fireplace and a chess table. The chess pieces move on their own, as if being played by invisible hands. Above the fireplace is a framed map, brown with age, the creases worn thin. It looks to you like a map of this property, the house at the center, the surrounding woods scattered with symbols you don’t recognize. A __, a ___. A rotary phone sits on the mantel. It rings. Do you answer?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 4,
+        "text": "You hear a muffled voice, like someone is speaking from very far away. Hello? you say. Who is this? But it’s impossible to hear what they’re saying. You hang up before they’re finished speaking. When you go to unplug the phone, you find that the phone is already unplugged.",
+        "actions": [
+            "Continue"
+        ]
+    },
+    {
+        "position": 5,
+        "text": "The phone rings twice more, then stops. The receiver sits still in the cradle, as if the phone never rang in the first place.",
+        "actions": [
+            "Continue"
         ]
     }
 ]

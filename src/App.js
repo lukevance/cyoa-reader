@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Grommet, Text } from 'grommet';
+import { Box, Grommet, Text } from 'grommet';
 
 const storyBlocks = require('./story-blocks.json');
 const storyPaths = require('./story-paths.json');
@@ -20,11 +20,16 @@ const theme = {
 
 function App() {
   const [currPosition, setCurrPosition] = useState(0);
+  const currBlock = storyBlocks.find(block => block.position === currPosition);
 
   const updatePosition = (currPosition, action) => {
     const validPaths = storyPaths.filter(path => path.source === currPosition);
     const targetPosition = validPaths.find(path => path.action === action);
-    setCurrPosition(targetPosition.target);
+    if (targetPosition && targetPosition.target >= 0) {
+      setCurrPosition(targetPosition.target);
+    } else {
+      setCurrPosition(-1);
+    }
   }
 
   return (
@@ -38,11 +43,11 @@ function App() {
             elevation='small'
           >
             <Text margin='large' size='large'>
-             {storyBlocks[currPosition].text}
+             {currBlock.text}
             </Text>
           </Box>
         </Box>
-        {storyBlocks[currPosition].actions.map(action => {
+        {currBlock.actions.map(action => {
             return (
               <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
                 <Box 
