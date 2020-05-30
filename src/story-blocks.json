@@ -50,5 +50,56 @@
         "actions": [
             "Continue"
         ]
+    },
+    {
+        "position": 6,
+        "text": "A pebble hits the window, but when you turn to look, no one’s there. Or at least, not that you can see. Light inside, dark outside. All you see is in the window is your reflection. You move deeper into the house.",
+        "actions": [
+            "Continue"
+        ]
+    },
+    {
+        "position": 7,
+        "text": "You are relieved to find the sitting room is clean of blood. This room opens to the back of the house, where an overgrown garden sprawls. You can see shadows slinking through a tangle of rosebushes. You make out a garden shed at the edge, before the woods begin. You close the curtains and turn your attention to the room. A floor-to-ceiling bookshelf filled with Jules Verne and scientific journals. A couple of overstuffed chairs. A polished wood bar and a leather-bound log book. A player piano. You turn a key in the piano and Moon River begins to play, the keys depressing on their own. Upstairs, a floorboard creaks. You were told the house was vacant. You might be in over your head here. Would you like to pour yourself a drink to steady the nerves?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 8,
+        "text": "There are three bottles on the bar: vodka, gin, and whiskey. They have all been opened, but they are all more than half full. Which do you choose?",
+        "actions": [
+            "Vodka",
+            "Gin",
+            "Whiskey"
+        ]
+    },
+    {
+        "position": 9,
+        "text": "You pour a finger of vodka into a glass tumbler and drink. It burns your throat in a good way and makes you feel calmer than before. You make your way to the adjacent dining room.",
+        "actions": [
+            "Continue"
+        ]
+    },
+    {
+        "position": 10,
+        "text": "You pour a finger of gin into a glass tumbler and drink. You feel lightheaded. The room blurs at the edges and you hit the ground hard, bruising your shoulder. You come to a few hours later. The clock on the bar reads midnight. Your mouth is dry and your head feels fuzzy, but you are all right. Alive. Who would poison the gin, and why? You think of the blood in the parlor, the missing physicist. The upstairs floorboards are creaking like someone pacing. You’re not thinking straight. You need some water. Would you like to move on to the next room?",
+        "actions": [
+            "Yes"
+        ]
+    },
+    {
+        "position": 11,
+        "text": "You pour a finger of whiskey into a glass tumbler and drink. The world seems to slip its axis and you are in the same sitting room—the player piano, the bookshelf, the bar—but now everything is studded in pink gems glowing with some internal light. What is this place? you ask, and the gems pulse brighter as if in response. They are warm to the touch and remind you of anemone, though they are not underwater, they are not soft. You apply gentle pressure to the largest one, but as soon as the gem cracks free, they all do. They clatter to the floor like an avalanche and then they are gone. The sitting room is the sitting room once more, lamplit and gem-less. Your hands are empty. Do you pour another drink, or do you move on to the adjacent dining room?",
+        "actions": [
+            "Pour another",
+            "Exit to dining room"
+        ]
+    },
+    {
+        "position": 12,
+        "text": "DINING ROOM",
+        "actions": []
     }
 ]

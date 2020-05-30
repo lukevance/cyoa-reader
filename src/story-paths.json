@@ -33,5 +33,60 @@
         "source": 3,
         "target": 5,
         "action": "No"
+    },
+    {
+        "source": 4,
+        "target": 6,
+        "action": "Continue"
+    },
+    {
+        "source": 5,
+        "target": 6,
+        "action": "Continue"
+    },
+    {
+        "source": 6,
+        "target": 7,
+        "action": "Continue"
+    },
+    {
+        "source": 7,
+        "target": 8,
+        "action": "Yes"
+    },
+    {
+        "source": 8,
+        "target": 9,
+        "action": "Vodka"
+    },
+    {
+        "source": 8,
+        "target": 10,
+        "action": "Gin"
+    },
+    {
+        "source": 8,
+        "target": 11,
+        "action": "Whiskey"
+    },
+    {
+        "source": 9,
+        "target": 12,
+        "action": "Continue"
+    },
+    {
+        "source": 10,
+        "target": 12,
+        "action": "Yes"
+    },
+    {
+        "source": 11,
+        "target": 12,
+        "action": "Exit to dining room"
+    },
+    {
+        "source": 11,
+        "target": -1,
+        "action": "Pour another"
     }
 ]
