@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Grommet, ResponsiveContext, Text } from 'grommet';
+import { Box, Grommet, Markdown, Paragraph, ResponsiveContext, Text } from 'grommet';
 
 import FinalForm from './FinalForm';
 
@@ -13,7 +13,8 @@ const theme = {
       button: '#74B4EE'
     },
     font: {
-      family: 'Roboto',
+      // family: 'Roboto',
+      family: 'EB Garamond',
       size: '18px',
       height: '20px',
     },
@@ -22,7 +23,6 @@ const theme = {
 
 function App() {
   const [currPosition, setCurrPosition] = useState(0);
-  // const size = React.useContext(ResponsiveContext);
 
   const currBlock = storyBlocks.find(block => block.position === currPosition);
 
@@ -40,7 +40,7 @@ function App() {
     <Grommet theme={theme}>
       <ResponsiveContext.Consumer>
         {size => {
-          const horizontalSpacing = (size === 'small') ? 'large' : 'xlarge';
+          const horizontalSpacing = (size === 'small') ? 'medium' : 'large';
           const topSpacing = (size === 'small') ? 'medium' : 'large';
           return (
             <Box fill>
@@ -51,12 +51,14 @@ function App() {
                   justify='center'
                   elevation='small'
                 >
-                  <Text margin={{top: topSpacing, bottom: 'medium', horizontal: horizontalSpacing}} size='large'>
-                    {size + "---- \n" + currBlock.text}
-                  </Text>
+                  <Paragraph margin={{top: topSpacing, bottom: 'medium', horizontal: horizontalSpacing}} size='large'>
+                    <Markdown>
+                      {currBlock.text}
+                    </Markdown>
+                  </Paragraph>
                 </Box>
               </Box>
-              {currBlock.actions[0] === "PATTERN_CHALLENGE" ? (<FinalForm />) : currBlock.actions.map(action => {
+              {currBlock.actions[0] === "END" ? (<FinalForm />) : currBlock.actions.map(action => {
                 return (
                   <Box direction='row' margin={{ bottom: 'medium', horizontal: horizontalSpacing }}>
                     <Box
