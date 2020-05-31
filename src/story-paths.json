@@ -16,7 +16,7 @@
     },
     {
         "source": 1,
-        "target": 2,
+        "target": 0,
         "action": "Try again"
     },
     {
@@ -228,7 +228,7 @@
 {
         "source": 28,
         "target": 29,
-        "action": "Next"
+        "action": "Run upstairs"
     },
 {
         "source": 27,
@@ -242,7 +242,7 @@
     },
     {
         "source": 29,
-        "target": 53,
+        "target": 55,
         "action": "Take care"
     },
 {
@@ -284,6 +284,16 @@
         "source": 34,
         "target": 35,
         "action": "Blue bedroom"
+    },
+{
+        "source": 34,
+        "target": 49,
+        "action": "Green bedroom"
+    },
+{
+        "source": 34,
+        "target": 46,
+        "action": "Bathroom"
     },
 {
         "source": 35,
@@ -344,6 +354,16 @@
         "source": 56,
         "target": 45,
         "action": "Ask about the key"
+    },
+{
+        "source": 45,
+        "target": 49,
+        "action": "Green bedroom"
+    },
+{
+        "source": 45,
+        "target": 46,
+        "action": "Bathroom"
     },
 {
         "source": 40,
