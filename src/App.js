@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Box, Grommet, Text } from 'grommet';
+import { Box, Grommet, ResponsiveContext, Text } from 'grommet';
 
-import PaternChallenge from './PatternChallenge';
+import FinalForm from './FinalForm';
 
 const storyBlocks = require('./story-blocks.json');
 const storyPaths = require('./story-paths.json');
@@ -22,6 +22,8 @@ const theme = {
 
 function App() {
   const [currPosition, setCurrPosition] = useState(0);
+  // const size = React.useContext(ResponsiveContext);
+
   const currBlock = storyBlocks.find(block => block.position === currPosition);
 
   const updatePosition = (currPosition, action) => {
@@ -36,39 +38,48 @@ function App() {
 
   return (
     <Grommet theme={theme}>
-      <Box fill>
-        <Box direction='row' flex overflow={{ horizontal: 'hidden'}} fill>
-          <Box 
-            flex 
-            align='center' 
-            justify='center' 
-            elevation='small'
-          >
-            <Text margin='large' size='large'>
-             {currBlock.text}
-            </Text>
-          </Box>
-        </Box>
-        {currBlock.actions[0] === "PATTERN_CHALLENGE" ? PaternChallenge : currBlock.actions.map(action => {
-            return (
-              <Box direction='row' margin={{bottom: 'medium', horizontal: 'large'}}>
-                <Box 
-                  flex 
-                  align='center' 
-                  justify='center' 
-                  background='button'
+      <ResponsiveContext.Consumer>
+        {size => {
+          const horizontalSpacing = (size === 'small') ? 'large' : 'xlarge';
+          const topSpacing = (size === 'small') ? 'medium' : 'large';
+          return (
+            <Box fill>
+              <Box direction='row' flex overflow={{ horizontal: 'hidden' }} margin={{bottom: 'large'}}fill>
+                <Box
+                  flex
+                  align='center'
+                  justify='center'
                   elevation='small'
-                  pad='medium'
-                  onClick={() => updatePosition(currPosition, action)}
                 >
-                  <Text size='large' color='white'>
-                    {action}
+                  <Text margin={{top: topSpacing, bottom: 'medium', horizontal: horizontalSpacing}} size='large'>
+                    {size + "---- \n" + currBlock.text}
                   </Text>
                 </Box>
-               </Box>
-            );
-          })}
-        </Box>
+              </Box>
+              {currBlock.actions[0] === "PATTERN_CHALLENGE" ? (<FinalForm />) : currBlock.actions.map(action => {
+                return (
+                  <Box direction='row' margin={{ bottom: 'medium', horizontal: horizontalSpacing }}>
+                    <Box
+                      flex
+                      align='center'
+                      justify='center'
+                      background='button'
+                      elevation='small'
+                      pad='medium'
+                      onClick={() => updatePosition(currPosition, action)}
+                    >
+                      <Text size='large' color='white'>
+                        {action}
+                      </Text>
+                    </Box>
+                  </Box>
+                );
+              })}
+            </Box>
+          )
+        }
+        }
+      </ResponsiveContext.Consumer>
     </Grommet>
   );
 }
