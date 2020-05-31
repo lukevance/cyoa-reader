@@ -60,7 +60,7 @@
     },
     {
         "position": 7,
-        "text": "A pebble hits the window, *tap*, but when you turn to look, no one’s there. Or at least, not that you can see. It’s dark outside, and all you see in the window is your reflection. You move deeper into the house.",
+        "text": "A pebble hits the window, tap, but when you turn to look, no one’s there. Or at least, not that you can see. It’s dark outside, and all you see in the window is your reflection. You move deeper into the house.",
         "actions": [
             "Exit to sitting room"
         ]
@@ -141,7 +141,6 @@
             "No"
         ]
     },
-
     {
         "position": 18,
         "text": "The small glass door is locked. If you have found a key, you might try it here.",
@@ -194,12 +193,12 @@
             "Close it"
         ]
     },
-  {
+    {
         "position": 58,
         "text": "You close the freezer and look, instead, at the twelve missing faces that stare out at you from the fridge. They are all vaguely familiar, but you cannot say you have ever met them before. You read about the physicist before coming here: his experiments were no secret, and they were not welcome. The neighborhood didn’t want any universe other than their own. The physicist had more than one enemy. Looking at these faces, you wonder if they were friends or foes. If you ever meet your closest neighbor, the one who’s hard of hearing, you’ll ask her about these folks. For now, it’s time to move on. Do you go upstairs or down?",
         "actions": [
             "Upstairs",
-	"Downstairs"
+            "Downstairs"
         ]
     },
     {
@@ -210,8 +209,6 @@
             "Close freezer"
         ]
     },
-
-
     {
         "position": 26,
         "text": "You fall through the ice-bright cold. The insides of your nostrils freeze, the inside of your mouth. If you don’t keep your eyes closed, they, too, will freeze. You brace yourself for a hard landing, but none comes. You are falling and falling, freezing as you fall, and it seems your life will go on this way forever if you can’t find something to hold on to. When you reach out, you feel frosted ice, like freezer-burn, and all at once you’re back in the kitchen, lemon and disposal stink, as though you’d never left. This is a dangerous house, you think, as you blow heat into your hands. You were lucky, reaching out when you did. Other pocket universes might not be so easy to escape.",
@@ -242,16 +239,15 @@
             "Take care"
         ]
     },
-  {
+    {
         "position": 55,
         "text": "You remember the logbook list—*whiskey, ice, third step, mirror, trunk, shed*—and suspect that these are things you ought to avoid. Just in case, you skip the third step and arrive safely at the top. You only look back once. You only regret not knowing what you missed for a moment, and then you turn your attention to the dark hall before you. Which room would you like to start with: the blue bedroom, the green bedroom, or the bathroom?",
         "actions": [
             "Blue bedroom",
             "Green bedroom",
-	"Bathroom"
+            "Bathroom"
         ]
     },
- 
     {
         "position": 30,
         "text": "When you step on the third stair from the top, the wood creaks. You are transported to a small room, the size and shape of a tent, but the domed walls are all stained glass. You are in a circle of light, warm as the sun, and there is no clear way out. You call for help, and a pair of shadows appear on the other side, pressing their hands to the glass, searching for a way in. You cup your hand over your mouth and stagger back. The shadows remind you of the shadows you saw in the yard, and you wonder if the Shadow Man’s haints are here, too. Wherever here is. If, in his experiments, the physicist managed to move the spirits between worlds. If he could do that, there might be a way to the lost treasure after all, which may account for the blood on the parlor wall. Or it may not.",
@@ -315,7 +311,7 @@
             "No"
         ]
     },
-   {
+    {
         "position": 54,
         "text": "*I don’t truck with nameless bodies,* the ghost writes. *Tell me your name, or leave.*",
         "actions": [
@@ -346,7 +342,7 @@
             "What do you mean, I can?"
         ]
     },
-  {
+    {
         "position": 56,
         "text": "*The physicist’s sister is a psychic. She saw something about you, I don’t know what, and honestly, I don’t care. All I care about is getting my key so I can leave this place. When you find my key, bring it here.*",
         "actions": [
@@ -434,6 +430,15 @@
         "text": "As you reach for the rope to pull down the attic stairs, the lights go out. It’s calm outside, no storm. Someone has cut the power. Someone is inside the house. ",
         "actions": [
             "Next"
+        ]
+    },
+    {
+        "position": 60,
+        "text": "Before you go up to the attic, have you visited the other rooms on this floor?",
+        "actions": [
+            "Blue bedroom",
+            "Bathroom",
+            "Yes, go up to the attic"
         ]
     },
     {
