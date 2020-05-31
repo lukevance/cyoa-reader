@@ -231,7 +231,7 @@
         "position": 28,
         "text": "Light leaks beneath the closed cellar door, but when you try the door, you find it’s locked. You rattle the doorknob, and the doorknob rattles back. Your body thrills and you race up the stairs, away, like something is chasing you.",
         "actions": [
-            "Next"
+            "Run upstairs"
         ]
     },
     {
