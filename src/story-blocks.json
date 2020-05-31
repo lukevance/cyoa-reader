@@ -60,7 +60,7 @@
     },
     {
         "position": 7,
-        "text": "A pebble hits the window, tap, but when you turn to look, no one’s there. Or at least, not that you can see. It’s dark outside, and all you see in the window is your reflection. You move deeper into the house.",
+        "text": "A pebble hits the window, *tap*, but when you turn to look, no one’s there. Or at least, not that you can see. It’s dark outside, and all you see in the window is your reflection. You move deeper into the house.",
         "actions": [
             "Exit to sitting room"
         ]
