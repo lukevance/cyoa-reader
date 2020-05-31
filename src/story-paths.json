@@ -480,7 +480,7 @@
         "action": "Yes, go up to the attic"
     },
     {
-        "source": 60,
+        "source": 50,
         "target": 51,
         "action": "Next"
     },
