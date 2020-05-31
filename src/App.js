@@ -43,7 +43,7 @@ function App() {
           const topSpacing = (size === 'small') ? 'medium' : 'large';
           return (
             <Box fill>
-              <Box direction='row' flex overflow={{ horizontal: 'hidden' }} margin={{bottom: 'large'}}fill>
+              <Box direction='row' flex overflow={{ horizontal: 'hidden' }} margin={{bottom: 'large'}} fill>
                 <Box
                   flex
                   align='center'
@@ -63,7 +63,13 @@ function App() {
               </Box>
               {currBlock.actions[0] === "END" ? (<FinalForm />) : currBlock.actions.map(action => {
                 return (
-                  <Box direction='row' margin={{ bottom: 'medium', horizontal: horizontalSpacing }}>
+                  <Box
+                    direction='row' 
+                    overflow={{ horizontal: 'hidden' }}
+                    margin={{ bottom: 'medium', horizontal: horizontalSpacing }}
+                    align='center'
+                    justify='center'
+                  >
                     <Box
                       flex
                       align='center'
