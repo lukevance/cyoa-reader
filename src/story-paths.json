@@ -277,7 +277,17 @@
 {
         "source": 37,
         "target": 38,
-        "action": "Tell them your name"
+        "action": "Yes"
+    },
+{
+        "source": 37,
+        "target": 54,
+        "action": "No"
+    },
+{
+        "source": 54,
+        "target": 38,
+        "action": "Tell the ghost your name"
     },
 {
         "source": 38,
@@ -292,12 +302,27 @@
 {
         "source": 39,
         "target": 41,
-        "action": "Who else is looking for the physicist?"
+        "action": "Who else is looking for him?"
+    },
+{
+        "source": 39,
+        "target": 56,
+        "action": "What do you mean, I can?"
+    },
+{
+        "source": 40,
+        "target": 56,
+        "action": "What do you mean, I can?"
+    },
+{
+        "source": 56,
+        "target": 45,
+        "action": "Ask about the key"
     },
 {
         "source": 40,
         "target": 41,
-        "action": "Who else is looking for the physicist?"
+        "action": "Who else is looking for him?"
     },
 {
         "source": 41,
@@ -306,8 +331,18 @@
     },
 {
         "source": 42,
-        "target": 41,
-        "action": "Back"
+        "target": 43,
+        "action": "Who are the Lost Boys?"
+    },
+{
+        "source": 42,
+        "target": 44,
+        "action": "Who is the Shadow Man?"
+    },
+{
+        "source": 42,
+        "target": 45,
+        "action": "Tell me more about the key"
     },
 {
         "source": 41,
@@ -316,8 +351,18 @@
     },
 {
         "source": 43,
-        "target": 41,
-        "action": "Back"
+        "target": 44,
+        "action": "Who is the Shadow Man?"
+    },
+{
+        "source": 43,
+        "target": 45,
+        "action": "Tell me more about the key"
+    },
+{
+        "source": 43,
+        "target": 42,
+        "action": "Who is the Killer?"
     },
 {
         "source": 41,
@@ -326,19 +371,26 @@
     },
 {
         "source": 44,
-        "target": 41,
-        "action": "Back"
+        "target": 42,
+        "action": "Who is the Killer?"
     },
+{
+        "source": 44,
+        "target": 43,
+        "action": "Who are the Lost Boys?"
+    },
+{
+        "source": 44,
+        "target": 45,
+        "action": "Tell me more about the key"
+    },
+
 {
         "source": 41,
         "target": 45,
         "action": "Tell me more about the key"
     },
-{
-        "source": 37,
-        "target": 45,
-        "action": "Ask again"
-    },
+
 {
         "source": 45,
         "target": 46,
@@ -354,6 +406,7 @@
         "target": 48,
         "action": "Return to hall"
     },
+
 {
         "source": 46,
         "target": 48,
@@ -386,6 +439,21 @@
     },
 {
         "source": 52,
+        "target": 46,
+        "action": "Bathroom"
+  },
+{
+        "source": 55,
+        "target": 35,
+        "action": "Blue bedroom"
+  },
+{
+        "source": 55,
+        "target": 49,
+        "action": "Green bedroom"
+  },
+{
+        "source": 55,
         "target": 46,
         "action": "Bathroom"
   }
