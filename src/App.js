@@ -13,7 +13,6 @@ const theme = {
       button: '#74B4EE'
     },
     font: {
-      // family: 'Roboto',
       family: 'EB Garamond',
       size: '18px',
       height: '20px',
@@ -51,7 +50,11 @@ function App() {
                   justify='center'
                   elevation='small'
                 >
-                  <Paragraph margin={{top: topSpacing, bottom: 'medium', horizontal: horizontalSpacing}} size='large'>
+                  <Paragraph 
+                    margin={{top: topSpacing, bottom: 'medium', horizontal: horizontalSpacing}} 
+                    size='large'
+                    align='justify'
+                  >
                     <Markdown>
                       {currBlock.text}
                     </Markdown>

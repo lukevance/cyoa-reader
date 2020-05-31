@@ -33,7 +33,7 @@
         "position": 3,
         "text": "The sun sets behind the woods, and the front lawn falls unnaturally dark. The shadows stretch tall and lope at the forest’s edge. You can’t see eyes or mouths, but you know they have them. You close the door. You cannot leave now.",
         "actions": [
-            "Next"
+            "Return to the parlor"
         ]
     },
     {
@@ -141,6 +141,7 @@
             "No"
         ]
     },
+
     {
         "position": 18,
         "text": "The small glass door is locked. If you have found a key, you might try it here.",
@@ -193,6 +194,14 @@
             "Close it"
         ]
     },
+  {
+        "position": 58,
+        "text": "You close the freezer and look, instead, at the twelve missing faces that stare out at you from the fridge. They are all vaguely familiar, but you cannot say you have ever met them before. You read about the physicist before coming here: his experiments were no secret, and they were not welcome. The neighborhood didn’t want any universe other than their own. The physicist had more than one enemy. Looking at these faces, you wonder if they were friends or foes. If you ever meet your closest neighbor, the one who’s hard of hearing, you’ll ask her about these folks. For now, it’s time to move on. Do you go upstairs or down?",
+        "actions": [
+            "Upstairs",
+	"Downstairs"
+        ]
+    },
     {
         "position": 25,
         "text": "When you pull open the freezer drawer, you are met with a blinding light. Standing here, looking down, you are colder than you have ever been. You could step inside, slide down to whatever ice-bright world awaits you, or you could close the freezer and move on.",
@@ -201,6 +210,8 @@
             "Close freezer"
         ]
     },
+
+
     {
         "position": 26,
         "text": "You fall through the ice-bright cold. The insides of your nostrils freeze, the inside of your mouth. If you don’t keep your eyes closed, they, too, will freeze. You brace yourself for a hard landing, but none comes. You are falling and falling, freezing as you fall, and it seems your life will go on this way forever if you can’t find something to hold on to. When you reach out, you feel frosted ice, like freezer-burn, and all at once you’re back in the kitchen, lemon and disposal stink, as though you’d never left. This is a dangerous house, you think, as you blow heat into your hands. You were lucky, reaching out when you did. Other pocket universes might not be so easy to escape.",
@@ -313,7 +324,7 @@
     },
     {
         "position": 38,
-        "text": "*I’ve heard of you,* the ghost writes. *You were chosen to take Shadow House after the physicist left, weren’t you? Did his sister tell you why she chose you?*",
+        "text": "*I’ve heard of you,* the ghost writes. *You were chosen to take over Shadow House after the physicist left, weren’t you? Did his sister tell you why she chose you?*",
         "actions": [
             "Yes",
             "No"

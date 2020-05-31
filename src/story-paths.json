@@ -31,8 +31,8 @@
     },
     {
         "source": 3,
-        "target": 5,
-        "action": "Next"
+        "target": 4,
+        "action": "Return to the parlor"
     },
     {
         "source": 4,
@@ -135,6 +135,12 @@
         "action": "Yes"
     },
 {
+        "source": 17,
+        "target": 23,
+        "action": "No"
+    },
+
+{
         "source": 18,
         "target": 19,
         "action": "I have a key"
@@ -183,6 +189,26 @@
         "source": 24,
         "target": 25,
         "action": "Open it"
+    },
+{
+        "source": 24,
+        "target": 58,
+        "action": "Close it"
+    },
+{
+        "source": 25,
+        "target": 58,
+        "action": "Close freezer"
+    },
+{
+        "source": 58,
+        "target": 29,
+        "action": "Upstairs"
+    },
+{
+        "source": 58,
+        "target": 28,
+        "action": "Downstairs"
     },
 {
         "source": 25,
