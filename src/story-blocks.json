@@ -8,67 +8,80 @@
     },
     {
         "position": 0,
-        "text": "You are standing outside a hundred-year-old three-story red-brick Queen Anne house you inherited by accident. The house is tucked in a dense bit of woods rumored to hold the Bandit Jack’s lost treasure. You think you hear a boy’s laughter coming from the trees, but that’s impossible. The closest neighbor is five miles away and, from what you’ve been told, hard of hearing. The only one here is you. One corner of the old house has sunk, pulling the bricks apart in a way that reminds you of teeth. You have the distinct sensation of being watched, but all the windows are dark. \n\n The key is in your hand. \n Would you like to go inside?",
+        "text": "You are standing outside Shadow House, the hundred-year-old Victorian house you inherited by accident, your name pulled from a lottery you didn’t know you’d entered. The house is tucked in a dense bit of woods rumored to hold the Shadow Man’s lost treasure. You think you hear a boy’s laughter coming from the trees, but that’s impossible. The closest neighbor is five miles away and, from what you’ve been told, hard of hearing. No, the only one here is you. One corner of the old house has sunk, pulling the bricks apart in a way that reminds you of teeth. You have the distinct sensation of being watched, but all the windows are dark. The key is in your hand. Are you ready to go inside?",
         "actions": [
             "Yes",
-            "No",
-            "Try Pattern challenge!"
+            "No"
         ]
     },
     {
         "position": 1,
-        "text": "The parlor is dark despite the late day’s sun, and you throw open the blackout curtains. The view from here is beautiful—a grassy lawn, a winding dirt road that disappears into the forest—but when you turn back to the room, you see a splatter of blood on the opposite wall. The man who lived here before was an experimental physicist playing with pocket universes. You knew he’d gone missing—you’d agreed to search the house for clues of where he might have gone—but no one had said anything about murder. Would you like to keep exploring the house, or is it time to leave?",
+        "text": "Fix yourself a cocktail and come back when you’re ready.",
+        "actions": [
+            "Try again"
+        ]
+    },
+    {
+        "position": 2,
+        "text": "The parlor is dark despite the late day’s sun, and you throw open the blackout curtains. The view from here is beautiful—a grassy lawn, a winding dirt road that disappears into the forest—but when you turn back to the room, you see a splatter of blood on the opposite wall. The man who lived here before was an experimental physicist playing with pocket universes. You knew he’d gone missing—you’d agreed to search the house for clues of where he might have gone when you accepted the house—but no one said anything about murder. Would you like to keep exploring the house, or is it time to leave?",
         "actions": [
             "Leave",
             "Explore"
         ]
     },
     {
-        "position": 2,
+        "position": 3,
         "text": "The sun sets behind the woods, and the front lawn falls unnaturally dark. The shadows stretch tall and lope at the forest’s edge. You can’t see eyes or mouths, but you know they have them. You close the door. You cannot leave now.",
         "actions": [
-            "Continue"
-        ]
-    },
-    {
-        "position": 3,
-        "text": "You turn on the overhead light. There is a cold fireplace and a chess table. The chess pieces move on their own, as if being played by invisible hands. Above the fireplace is a framed map, brown with age, the creases worn thin. It looks to you like a map of this property, the house at the center, the surrounding woods scattered with symbols you don’t recognize. A __, a ___. A rotary phone sits on the mantel. It rings. Do you answer?",
-        "actions": [
-            "Yes",
-            "No"
+            "Next"
         ]
     },
     {
         "position": 4,
-        "text": "You hear a muffled voice, like someone is speaking from very far away. Hello? you say. Who is this? But it’s impossible to hear what they’re saying. You hang up before they’re finished speaking. When you go to unplug the phone, you find that the phone is already unplugged.",
-        "actions": [
-            "Continue"
-        ]
-    },
-    {
-        "position": 5,
-        "text": "The phone rings twice more, then stops. The receiver sits still in the cradle, as if the phone never rang in the first place.",
-        "actions": [
-            "Continue"
-        ]
-    },
-    {
-        "position": 6,
-        "text": "A pebble hits the window, but when you turn to look, no one’s there. Or at least, not that you can see. Light inside, dark outside. All you see is in the window is your reflection. You move deeper into the house.",
-        "actions": [
-            "Continue"
-        ]
-    },
-    {
-        "position": 7,
-        "text": "You are relieved to find the sitting room is clean of blood. This room opens to the back of the house, where an overgrown garden sprawls. You can see shadows slinking through a tangle of rosebushes. You make out a garden shed at the edge, before the woods begin. You close the curtains and turn your attention to the room. A floor-to-ceiling bookshelf filled with Jules Verne and scientific journals. A couple of overstuffed chairs. A polished wood bar and a leather-bound log book. A player piano. You turn a key in the piano and Moon River begins to play, the keys depressing on their own. Upstairs, a floorboard creaks. You were told the house was vacant. You might be in over your head here. Would you like to pour yourself a drink to steady the nerves?",
+        "text": "You turn on the overhead light. There is a cold fireplace and a chess table. The chess pieces move on their own, as if being played by invisible hands. Bishop to G5. Queen to D5. Above the fireplace is a framed map of Shadow House, mottled brown, like the paper has been dipped in tea. The house is at the center; the surrounding woods are scattered with symbols: a wrench, a pencil, a bee. A rotary phone sits on the mantel. It rings, a shrill, rattling sound. Do you answer?",
         "actions": [
             "Yes",
             "No"
         ]
     },
     {
+        "position": 5,
+        "text": "You hear a muffled voice, like someone is speaking from very far away. Hello? you say. Who is this? But it’s impossible to hear what they’re saying. You feel a chill run up your spine, and your eyes drift to the bloodstained wall. You hang up. When you go to unplug the phone, you find that it is already unplugged.",
+        "actions": [
+            "Tap"
+        ]
+    },
+    {
+        "position": 6,
+        "text": "The phone rings twice more, then stops. The receiver sits still in the cradle, as if the phone never rang in the first place. ",
+        "actions": [
+            "Tap"
+        ]
+    },
+    {
+        "position": 7,
+        "text": "A pebble hits the window, tap, but when you turn to look, no one’s there. Or at least, not that you can see. It’s dark outside, and all you see in the window is your reflection. You move deeper into the house.",
+        "actions": [
+            "Exit to sitting room"
+        ]
+    },
+    {
         "position": 8,
+        "text": "You are relieved to find the sitting room is clean of blood. This room opens to the back of the house, where an overgrown garden sprawls. You can see shadows slinking through a tangle of rosebushes. You make out a garden shed at the edge, before the notorious woods begin. You would like to go looking for the Shadow Man’s treasure yourself, the symbols in the parlor map might be useful, but you know night is not the time to wander into the woods. You close the curtains and turn your attention to the room.",
+        "actions": [
+            "Next"
+        ]
+    },
+    {
+        "position": 9,
+        "text": "A floor-to-ceiling bookshelf is filled with Jules Verne and Ted Chiang and a collection of scientific journals spanning three decades. A couple of overstuffed chairs. A polished wood bar and a leather-bound log book. A player piano. You turn a key in the piano and Moon River begins to play, the keys depressing on their own. Upstairs, a floorboard creaks. You were told the house was vacant .You aren’t prepared for company. The bar has liquor. Would you like to pour yourself a drink?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 10,
         "text": "There are three bottles on the bar: vodka, gin, and whiskey. They have all been opened, but they are all more than half full. Which do you choose?",
         "actions": [
             "Vodka",
@@ -77,37 +90,324 @@
         ]
     },
     {
-        "position": 9,
+        "position": 11,
         "text": "You pour a finger of vodka into a glass tumbler and drink. It burns your throat in a good way and makes you feel calmer than before. You make your way to the adjacent dining room.",
         "actions": [
-            "Continue"
+            "Next"
         ]
     },
     {
-        "position": 10,
-        "text": "You pour a finger of gin into a glass tumbler and drink. You feel lightheaded. The room blurs at the edges and you hit the ground hard, bruising your shoulder. You come to a few hours later. The clock on the bar reads midnight. Your mouth is dry and your head feels fuzzy, but you are all right. Alive. Who would poison the gin, and why? You think of the blood in the parlor, the missing physicist. The upstairs floorboards are creaking like someone pacing. You’re not thinking straight. You need some water. Would you like to move on to the next room?",
+        "position": 12,
+        "text": "You pour a finger of gin into a glass tumbler and drink. You feel lightheaded. The room blurs at the edges and you hit the ground hard. When you come to a few hours later, the clock on the bar reads midnight. Your mouth is dry and your head feels fuzzy, but you are all right. Alive. Who would poison the gin, and why? You think of the blood in the parlor, the missing physicist. The upstairs floorboards are creaking like someone pacing. You’ve got to get away from this poison, that creaking. You make your way to the adjacent dining room.",
         "actions": [
-            "Yes"
+            "Next"
         ]
     },
     {
-        "position": 11,
-        "text": "You pour a finger of whiskey into a glass tumbler and drink. The world seems to slip its axis and you are in the same sitting room—the player piano, the bookshelf, the bar—but now everything is studded in pink gems glowing with some internal light. What is this place? you ask, and the gems pulse brighter as if in response. They are warm to the touch and remind you of anemone, though they are not underwater, they are not soft. You apply gentle pressure to the largest one, but as soon as the gem cracks free, they all do. They clatter to the floor like an avalanche and then they are gone. The sitting room is the sitting room once more, lamplit and gem-less. Your hands are empty. Do you pour another drink, or do you move on to the adjacent dining room?",
+        "position": 13,
+        "text": "You pour a finger of whiskey into a glass tumbler and drink. The world seems to slip its axis and you are in the same sitting room—the player piano, the bookshelf, the bar—but now everything is studded in pink gems glowing with some internal light. What is this place? you ask, and the gems pulse brighter as if in response. Echo, you say, and they flare. You pry a small gem loose from the stopper on the whiskey and, without knowing why, you place it on your tongue like candy. The gems are gone. The sitting room is the sitting room once more, gem-less. Do you pour another drink, or do you move on to the adjacent dining room?",
         "actions": [
             "Pour another",
             "Exit to dining room"
         ]
     },
     {
-        "position": 12,
-        "text": "DINING ROOM",
-        "actions": []
+        "position": 14,
+        "text": "You lift the glass for a second drink, but before the whiskey touches your lips, you stop. You were lucky the first time, finding your way back. You might not be so lucky again. You set the glass on the bar. This pocket universe has more to offer you, but not yet.",
+        "actions": [
+            "Exit to dining room"
+        ]
     },
     {
-        "position": 13,
-        "text": "This is the end of the first chapter of SHADOW HOUSE. If you’d like to be notified of future chapters, please leave your email address. Thanks for playing.",
+        "position": 15,
+        "text": "As you prepare to leave the bar, you notice a bump in the leather-bound logbook, keeping the cover from lying flat. Something is inside of it. Would you like to take a closer look?",
         "actions": [
-            "PATTERN_CHALLENGE"
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 16,
+        "text": "The leather logbook is embossed with a coat of arms you assume must have belonged to the physicist’s family. The physicist has one sister, the one who called to tell you you’d won a lottery you’d never entered. The house is old, she’d said. What do I want with it? You pull the red ribbon up, and the logbook opens to an antique skeleton key. Beneath this, written in a scrawling, slanting script, is a list: whiskey, ice, third step, mirror, trunk, shed. You pocket the key. You tear out the list.",
+        "actions": [
+            "Exit to dining room"
+        ]
+    },
+    {
+        "position": 17,
+        "text": "At the head of the six-person dining table is a bar cart with an unopened bottle of champagne in an ice bucket filled with room-temperature water. You lift the champagne and water drips to the hardwood floor at your feet. The table is set for two. What was the physicist celebrating, and with whom? What interrupted him? In the corner of the room, a grandfather clock stands silent. Its face is mother of pearl. Behind the glass door, hanging between the pendulums, is a small brass box. Would you like to take a closer look at the box?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 18,
+        "text": "The small glass door is locked. If you have found a key, you might try it here.",
+        "actions": [
+            "I have a key",
+            "What key?"
+        ]
+    },
+    {
+        "position": 19,
+        "text": "The skeleton key you found in the logbook fits the lock. It turns with a satisfying click. The brass box is smaller than a Rubik’s Cube and light. When you shake it, something inside rattles. You turn it over in your hands, but you can’t find an opening. Do you put it back in the clock, or keep it?",
+        "actions": [
+            "Put it back",
+            "Keep it"
+        ]
+    },
+    {
+        "position": 20,
+        "text": "You hang the brass box where you found it. Maybe it’ll be useful later.",
+        "actions": [
+            "Exit to kitchen"
+        ]
+    },
+    {
+        "position": 21,
+        "text": "The brass box fits nicely in your hand; the soft rattling something is oddly comforting. You can still hear footsteps coming from upstairs, though they’re fainter here, in the dining room. If nothing else, you can use the box as a weapon.",
+        "actions": [
+            "Exit to kitchen"
+        ]
+    },
+    {
+        "position": 22,
+        "text": "To get through this house, you’ll need more than what you came here with.",
+        "actions": [
+            "Exit to kitchen"
+        ]
+    },
+    {
+        "position": 23,
+        "text": "You leave the brass box locked inside the grandfather clock and move on to the kitchen.",
+        "actions": [
+            "Exit to kitchen"
+        ]
+    },
+    {
+        "position": 24,
+        "text": "The first floor is a circle of rooms: parlor, sitting room, dining room, kitchen. A staircase at the center like a spine stretching up to the bedrooms and down to a cellar. The sink smells like lemons and disposal stink. The counters are smudged with fingerprints, and the cabinets are filled with stale, half-eaten food. The fridge is covered in newspaper clippings, a dozen profiles of missing people, the most recent dated just two weeks earlier: sixteen-year-old Joelle, thirty-two-year-old Ned, seventy-year-old Norma. The missing people have nothing in common except that they’re all from this town, a small unincorporated place notable only because of the Shadow Man’s lost treasure, the rumored haints he has guarding it. You would’ve thought the people had gotten lost in the woods, hunting for treasure, but the blood spatter on the parlor wall has you thinking otherwise. You look down and notice that the pull-out freezer drawer is ajar. Do you open it, or close it?",
+        "actions": [
+            "Open it",
+            "Close it"
+        ]
+    },
+    {
+        "position": 25,
+        "text": "When you pull open the freezer drawer, you are met with a blinding light. Standing here, looking down, you are colder than you have ever been. You could step inside, slide down to whatever ice-bright world awaits you, or you could close the freezer and move on.",
+        "actions": [
+            "Step inside",
+            "Close freezer"
+        ]
+    },
+    {
+        "position": 26,
+        "text": "You fall through the ice-bright cold. The insides of your nostrils freeze, the inside of your mouth. If you don’t keep your eyes closed, they, too, will freeze. You brace yourself for a hard landing, but none comes. You are falling and falling, freezing as you fall, and it seems your life will go on this way forever if you can’t find something to hold on to. When you reach out, you feel frosted ice, like freezer-burn, and all at once you’re back in the kitchen, lemon and disposal stink, as though you’d never left. This is a dangerous house, you think, as you blow heat into your hands. You were lucky, reaching out when you did. Other pocket universes might not be so easy to escape.",
+        "actions": [
+            "Next"
+        ]
+    },
+    {
+        "position": 27,
+        "text": "Twelve missing faces stare out at you from the fridge. They are all vaguely familiar, but you cannot say you have ever met them before. The physicist is not among them. You read about him before you came here, a few articles, a few local stories about the mad scientist who was turning Shadow House into the Twilight Zone, the quiet townspeople’s ruffled feathers. But that is no surprise. A missing person can’t clip themselves from the newspaper. Still, there’s something unnerving about these twelve faces, the way the paper shudders with the refrigerator hum. It’s time to move on. Do you go upstairs, or down?",
+        "actions": [
+            "Upstairs",
+            "Downstairs"
+        ]
+    },
+    {
+        "position": 28,
+        "text": "Light leaks beneath the closed cellar door, but when you try the door, you find it’s locked. You rattle the doorknob, and the doorknob rattles back. Your body thrills and you race up the stairs, away, like something is chasing you.",
+        "actions": [
+            "Next"
+        ]
+    },
+    {
+        "position": 29,
+        "text": "The stairs are narrow and steep and lit by a yellow-and-orange stained glass window waiting for you at the top, though you’re not sure where the light is coming from. It is dark outside, dark inside. You hesitate at the bottom, afraid of what you might find upstairs—who or what is making that floorboard creak?—and, perhaps, of the stairs themselves. Do you ascend quickly, or do you take extra care?",
+        "actions": [
+            "Quickly",
+            "Take care"
+        ]
+    },
+    {
+        "position": 30,
+        "text": "When you step on the third stair from the top, the wood creaks. You are transported to a small room, the size and shape of a tent, but the domed walls are all stained glass. You are in a circle of light, warm as the sun, and there is no clear way out. You call for help, and a pair of shadows appear on the other side, pressing their hands to the glass, searching for a way in. You cup your hand over your mouth and stagger back. The shadows remind you of the shadows you saw in the yard, and you wonder if the Shadow Man’s haints are here, too. Wherever here is. If, in his experiments, the physicist managed to move the spirits between worlds. If he could do that, there might be a way to the lost treasure after all, which may account for the blood on the parlor wall. Or it may not.",
+        "actions": [
+            "Next"
+        ]
+    },
+    {
+        "position": 31,
+        "text": "There aren’t a lot of options here. The room is small. The shadows are close. Your only way out is back, and you begin to pace the floor, searching for the creaky step that brought you here, but you do not find it. The shadows are still pressing their hands to the glass. Maybe they know the way out. Maybe they are trying to help. They move their hands slowly, pausing after each move, and you begin to notice a pattern: red diamond, orange square, yellow circle. They are telling you something. Are you listening?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 32,
+        "text": "Choose the correct pattern to escape the pocket universe.",
+        "actions": [
+            "Orange square, yellow circle, red diamond",
+            "Red diamond, orange square, yellow circle",
+            "Yellow circle, red diamond, orange square"
+        ]
+    },
+    {
+        "position": 33,
+        "text": "Pay attention to the shadow’s pattern: red diamond, orange square, yellow circle. To escape the pocket universe, you must repeat the pattern correctly.",
+        "actions": [
+            "Ready to try again?"
+        ]
+    },
+    {
+        "position": 34,
+        "text": "You are back on the staircase. You remember the logbook list—whiskey, ice, third step, mirror, trunk, shed—and think: these are all things you ought to avoid. One of these times, you might not be able to find your way back. You are at the top of the steps. Which room would you like to start with: the blue bedroom, the green bedroom, or the bathroom?",
+        "actions": [
+            "Blue bedroom",
+            "Green bedroom",
+            "Bathroom"
+        ]
+    },
+    {
+        "position": 35,
+        "text": "The footsteps you heard from the sitting room are louder here, outside the closed door to the blue bedroom. You feel the cold air like a barrier, and you know that the thing pacing this room is no living human. You turn the knob, bracing yourself for a body, spirit or otherwise, but the room is empty. The footsteps fall silent. There is a bed, neatly made, a dresser, and a vanity with a tri-fold mirror. The mirror fogs, as though someone is breathing on the glass, and then you see letters forming in the condensation, a finger on the other side drawing the shapes: Where is my key? Do you cut and run, or do you ask the ghost what it means by a key?",
+        "actions": [
+            "Cut and run",
+            "Ask about the key"
+        ]
+    },
+    {
+        "position": 36,
+        "text": "You try to leave, but something stops you. An instinct. A feeling. You stay in the room.",
+        "actions": [
+            "Ask about the key"
+        ]
+    },
+    {
+        "position": 37,
+        "text": "The physicist promised me a way out, the ghost writes. Where are you? you ask, writing your letters in the fogged glass, wondering whose breath it is you’re touching. Elsewhere, the ghost writes. He put me here. He promised to let me out when he was finished. Finished with what? you ask.The ghost hesitates. Who are you? Do you tell the ghost your name, or do you ask, again about the key?",
+        "actions": [
+            "Tell them your name",
+            "Ask again"
+        ]
+    },
+    {
+        "position": 38,
+        "text": "I’ve heard of you, the ghost writes. You were chosen to take Shadow House after the physicist left, weren’t you? Did his sister tell you why she chose you?",
+        "actions": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "position": 39,
+        "text": "Good. There’s not many people can survive Shadow House. Even fewer who can follow the physicist where he went and bring him back before anyone else does. You can.",
+        "actions": [
+            "Who else is looking for the physicist?",
+            ""
+        ]
+    },
+    {
+        "position": 40,
+        "text": "There’s not many people can survive Shadow House. Even fewer who can follow the physicist where he went and bring him back before anyone else does. You can.",
+        "actions": [
+            "Who else is looking for the physicist?",
+            ""
+        ]
+    },
+    {
+        "position": 41,
+        "text": "Many people. The Killer, the Lost Boys, even the Shadow Man himself. But I’m not interested in them. I’m interested in you. You’re the one who’s meant to find my key.",
+        "actions": [
+            "Who is the Killer?",
+            "Who are the Lost Boys?",
+            "Who is the Shadow Man?",
+            "Tell me more about the key"
+        ]
+    },
+    {
+        "position": 42,
+        "text": "The killer has shed a lot of innocent blood hunting for the Shadow Man's lost treasure.",
+        "actions": [
+            "Back"
+        ]
+    },
+    {
+        "position": 43,
+        "text": "The Lost Boys got trapped in the Shadow Man’s spell when he cast protective charms over his treasure, and now they’re boys forever. Pranksters. Until the physicist started messing around. ",
+        "actions": [
+            "Back"
+        ]
+    },
+    {
+        "position": 44,
+        "text": "Who is the Shadow Man? Friend, if you don’t know that, you’ll have to ask someone else.",
+        "actions": [
+            "Back"
+        ]
+    },
+    {
+        "position": 45,
+        "text": "I don’t know what it looks like. All I know is that I need it to leave this place. \n What happens if you leave? you ask. The ghost doesn’t respond at first, and you wonder if they’ve gone. You find yourself staring at your own reflection in the mirror, noticing the new shadows under your eyes and hoping it’s only a trick of the light. You’ll be free of me, the ghost says. And believe me, you keep me here much longer, and you’ll want to be free of me. You leave the ghost in the blue bedroom and return to the hall. Where would you like to go next?",
+        "actions": [
+            "Green bedroom",
+            "Bathroom"
+        ]
+    },
+    {
+        "position": 46,
+        "text": "The bathroom faucet is leaky. The tub is rimmed with grime, the shower curtain pink with mildew. This isn’t a nice room. You don’t want to spend more time here than you have to. You look in the mirror before leaving and your blood runs cold. Your reflection is not there. Do you touch the mirror, or do you return to the hall?",
+        "actions": [
+            "Touch the mirror",
+            "Return to hall"
+        ]
+    },
+    {
+        "position": 47,
+        "text": "This pocket universe is in progress. Check back later.",
+        "actions": [
+            "Return to hall"
+        ]
+    },
+    {
+        "position": 48,
+        "text": "You return to the hall. Where would you like to go next?",
+        "actions": [
+            "Blue bedroom",
+            "Green bedroom"
+        ]
+    },
+    {
+        "position": 49,
+        "text": "You stumble over stacks of comic books: The Flash, Batman, Spiderman. Thor. Black Panther. Wonder Woman. An unplugged Twilight Zone pinball machine sits beneath the window overlooking the backyard and its moving shadows. A heavy wooden desk with two drawers is pressed against the adjacent, windowless wall. In one drawer: legal pads and miscellaneous office supplies, in the other: Sen Sen, a slinky, a slingshot, a gun. A forever motion machine sits in the middle of the desk, the silver balls knocking back and forth, tick tick tick. In the middle of the room, a trapdoor pull to the attic. The smell of ozone seeps from the ceiling, like an electrical storm. Would you like to go up to the attic, or would you like to return to the hall?",
+        "actions": [
+            "Attic",
+            "Hall"
+        ]
+    },
+    {
+        "position": 50,
+        "text": "As you reach for the rope to pull down the attic stairs, the lights go out. It’s calm outside, no storm. Someone has cut the power. Someone is inside the house. ",
+        "actions": [
+            "Next"
+        ]
+    },
+    {
+        "position": 51,
+        "text": "This is the end of the first chapter of SHADOW HOUSE.",
+        "actions": [
+            "END"
+        ]
+    },
+    {
+        "position": 52,
+        "text": "You are in the hall. Where would you like to go next?",
+        "actions": [
+            "Blue bedroom",
+            "Bathroom"
         ]
     }
 ]
