@@ -450,6 +450,11 @@
         "action": "Return to hall"
     },
     {
+        "source": 48,
+        "target": 35,
+        "action": "Blue bedroom"
+    },
+    {
         "source": 46,
         "target": 48,
         "action": "Return to hall"
